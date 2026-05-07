@@ -1,37 +1,35 @@
 // ===================================================
-// DATA: Profil Pribadi
-// Ubah data di sini untuk mengupdate info di seluruh website
+// DATA: Personal Profile
+// Update the data here to update info across the website
 // ===================================================
 
 export const profile = {
-  name: 'Nama Kamu',
+  name: 'Roland Rudiyanto',
   role: 'Full Stack Developer',
   email: 'email@example.com',
   linkedin: 'https://linkedin.com/in/username',
   github: 'https://github.com/username',
   twitter: 'https://twitter.com/username',
   location: 'Jakarta, Indonesia',
-  cvFile: '/cv-nama-kamu.pdf', // File CV ada di folder public/
+  cvFile: '/cv-your-name.pdf', // CV file is in the public/ folder
 
-  bio: 'Seorang developer yang passionate dalam membangun produk digital yang beautiful dan fungsional. Aku suka mengubah ide kompleks menjadi pengalaman pengguna yang seamless dan intuitif.',
+  bio: 'A developer passionate about building beautiful and functional digital products. I enjoy transforming complex ideas into seamless and intuitive user experiences.',
 
   roles: [
     'Full Stack Developer',
-    'UI/UX Enthusiast',
-    'Problem Solver',
-    'Tech Explorer',
+    'Backend Developer',
   ],
 
   stats: [
-    { value: '3+', label: 'Tahun Pengalaman' },
-    { value: '20+', label: 'Projects Selesai' },
-    { value: '10+', label: 'Klien Puas' },
+    { value: '1+', label: 'Year of Experience' },
+    { value: '3+', label: 'Projects Completed' },
+    // { value: '10+', label: 'Satisfied Clients' },
   ],
 
   languages: [
-    { name: 'Bahasa Indonesia', level: 'Native', color: '#22c55e' },
+    { name: 'Indonesian', level: 'Native', color: '#22c55e' },
     { name: 'English', level: 'Professional', color: '#06b6d4' },
   ],
 
-  interests: ['Open Source', 'UI/UX Design', 'Cloud Computing', 'Gaming', 'Fotografi', 'Machine Learning'],
+  interests: ['Backend Development', 'DevOps', 'Gaming', 'Machine Learning'],
 }

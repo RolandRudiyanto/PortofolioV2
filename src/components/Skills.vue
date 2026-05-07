@@ -2,9 +2,9 @@
   <section id="skills" class="section skills-section">
     <div class="container">
       <div class="section-header">
-        <span class="section-label">Kemampuan</span>
+        <!-- <span class="section-label">Kemampuan</span> -->
         <h2 class="section-title">Tech <span>Skills</span></h2>
-        <p class="section-desc">Teknologi dan tools yang aku gunakan untuk membangun produk digital berkualitas tinggi.</p>
+        <!-- <p class="section-desc">Teknologi dan tools yang aku gunakan untuk membangun produk digital berkualitas tinggi.</p> -->
       </div>
 
       <!-- Category Tabs -->

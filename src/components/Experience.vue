@@ -2,9 +2,9 @@
   <section id="experience" class="section">
     <div class="container">
       <div class="section-header">
-        <span class="section-label">Perjalanan</span>
+        <!-- <span class="section-label">Perjalanan</span> -->
         <h2 class="section-title">Work <span>Experience</span></h2>
-        <p class="section-desc">Rekam jejak perjalanan profesional yang membentuk aku menjadi developer hari ini.</p>
+        <!-- <p class="section-desc">Rekam jejak perjalanan profesional yang membentuk aku menjadi developer hari ini.</p> -->
       </div>
 
       <Timeline :value="experiences" class="exp-timeline" align="alternate">

@@ -10,12 +10,11 @@
           </div>
 
           <h1 class="hero-title animate-fade-up" style="animation-delay:0.2s">
-            Halo, Aku
+            Hello, I'm
             <span class="name-highlight">{{ profile.name }}</span>
           </h1>
 
           <div class="hero-role animate-fade-up" style="animation-delay:0.3s">
-            <span class="role-prefix">Seorang </span>
             <span class="role-text">{{ displayedRole }}</span>
             <span class="cursor-blink">|</span>
           </div>
@@ -25,8 +24,8 @@
           </p>
 
           <div class="hero-actions animate-fade-up" style="animation-delay:0.5s">
-            <Button as="a" href="#projects" label="Lihat Projects" icon="pi pi-arrow-right" icon-pos="right" class="hero-btn-primary" />
-            <Button as="a" :href="profile.cvFile" download label="Download CV" icon="pi pi-download" outlined class="hero-btn-outline" />
+            <Button as="a" href="#projects" label="Projects" icon="pi pi-arrow-right" icon-pos="right" class="hero-btn-primary" />
+            <Button as="a" :href="profile.cvFile" download label="CV" icon="pi pi-download" outlined class="hero-btn-outline" />
           </div>
 
           <div class="hero-socials animate-fade-up" style="animation-delay:0.6s">
