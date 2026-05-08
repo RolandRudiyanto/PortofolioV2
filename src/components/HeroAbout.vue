@@ -6,7 +6,7 @@
         <div class="hero-content">
           <div class="hero-greeting animate-fade-up" style="animation-delay:0.1s">
             <span class="greeting-dot"></span>
-            Tersedia untuk peluang baru
+            Available for new opportunities
           </div>
 
           <h1 class="hero-title animate-fade-up" style="animation-delay:0.2s">

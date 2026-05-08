@@ -2,9 +2,9 @@
   <section id="skills" class="section skills-section">
     <div class="container">
       <div class="section-header">
-        <!-- <span class="section-label">Kemampuan</span> -->
+        <!-- <span class="section-label">Skills</span> -->
         <h2 class="section-title">Tech <span>Skills</span></h2>
-        <!-- <p class="section-desc">Teknologi dan tools yang aku gunakan untuk membangun produk digital berkualitas tinggi.</p> -->
+        <!-- <p class="section-desc">Technologies and tools I use to build high-quality digital products.</p> -->
       </div>
 
       <!-- Category Tabs -->
@@ -48,8 +48,8 @@
       <!-- Top Proficiency bars -->
       <div class="proficiency-section">
         <div class="proficiency-header">
-          <h3 class="proficiency-title">Tingkat Kemahiran Utama</h3>
-          <span class="proficiency-subtitle">Berdasarkan pengalaman &amp; project nyata</span>
+          <h3 class="proficiency-title">Top Proficiencies</h3>
+          <span class="proficiency-subtitle">Based on real-world experience &amp; projects</span>
         </div>
         <div class="prof-bars" ref="barsRef">
           <div v-for="skill in topSkills" :key="skill.name" class="prof-item">

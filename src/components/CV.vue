@@ -4,7 +4,7 @@
       <div class="section-header">
         <span class="section-label">Resume</span>
         <h2 class="section-title">Download <span>CV</span></h2>
-        <p class="section-desc">Tertarik untuk berkolaborasi? Unduh CV lengkapku dan mari kita bangun sesuatu yang luar biasa bersama.</p>
+        <p class="section-desc">Interested in collaborating? Download my full CV and let's build something amazing together.</p>
       </div>
 
       <div class="cv-wrapper">
@@ -42,7 +42,7 @@
                 </span>
                 <span class="cv-chip">
                   <i class="pi pi-file-pdf"></i>
-                  PDF · 2 halaman
+                  PDF · 2 pages
                 </span>
               </div>
             </div>
@@ -87,11 +87,11 @@
         <!-- Contact CTA -->
         <div class="contact-cta glass-card">
           <div class="cta-text">
-            <h3 class="cta-title">Ingin berkolaborasi?</h3>
-            <p class="cta-desc">Aku terbuka untuk peluang full-time, freelance, maupun project kolaborasi. Let's talk!</p>
+            <h3 class="cta-title">Want to collaborate?</h3>
+            <p class="cta-desc">I am open to full-time, freelance opportunities, or collaborative projects. Let's talk!</p>
           </div>
           <div class="cta-buttons">
-            <Button as="a" :href="'mailto:' + profile.email" label="Kirim Email" icon="pi pi-envelope" class="email-btn" />
+            <Button as="a" :href="'mailto:' + profile.email" label="Send Email" icon="pi pi-envelope" class="email-btn" />
             <Button as="a" :href="profile.linkedin" target="_blank" label="LinkedIn" icon="pi pi-linkedin" outlined class="linkedin-btn" />
           </div>
         </div>

@@ -1,6 +1,6 @@
 // ===================================================
-// DATA: Projects / Karya
-// Tambah project baru dengan menambahkan objek baru ke array
+// DATA: Projects / Portfolio
+// Add a new project by adding a new object to the array
 // ===================================================
 
 export const projects = [
@@ -9,7 +9,7 @@ export const projects = [
     category: 'Web App',
     catIcon: 'pi pi-desktop',
     year: '2024',
-    desc: 'Platform manajemen toko online dengan analytics real-time, manajemen produk, dan integrasi payment gateway.',
+    desc: 'Online store management platform with real-time analytics, product management, and payment gateway integration.',
     tags: ['Vue.js', 'Node.js', 'PostgreSQL', 'Chart.js'],
     gradient: 'linear-gradient(135deg, #1a0d40 0%, #0d1a30 100%)',
     accentColor: '#8b5cf6',
@@ -23,7 +23,7 @@ export const projects = [
     category: 'Web App',
     catIcon: 'pi pi-desktop',
     year: '2024',
-    desc: 'Aplikasi media sosial dengan real-time messaging, story, feed, dan notifikasi via WebSocket.',
+    desc: 'Social media application with real-time messaging, stories, feed, and notifications via WebSocket.',
     tags: ['React', 'Socket.io', 'MongoDB', 'Redis'],
     gradient: 'linear-gradient(135deg, #0a1a2e 0%, #0a2a3a 100%)',
     accentColor: '#06b6d4',
@@ -37,7 +37,7 @@ export const projects = [
     category: 'Mobile',
     catIcon: 'pi pi-mobile',
     year: '2023',
-    desc: 'Aplikasi pencatatan keuangan pribadi dengan visualisasi data, kategori pengeluaran, dan laporan bulanan.',
+    desc: 'Personal finance tracking application with data visualization, expense categories, and monthly reports.',
     tags: ['React Native', 'Firebase', 'Victory Charts'],
     gradient: 'linear-gradient(135deg, #0a1a0a 0%, #0d2010 100%)',
     accentColor: '#22c55e',
@@ -51,7 +51,7 @@ export const projects = [
     category: 'UI/UX',
     catIcon: 'pi pi-palette',
     year: '2023',
-    desc: 'Sistem desain komprehensif dengan 100+ komponen siap pakai dan panduan penggunaan lengkap.',
+    desc: 'Comprehensive design system with 100+ ready-to-use components and complete usage guidelines.',
     tags: ['Figma', 'Storybook', 'CSS Variables'],
     gradient: 'linear-gradient(135deg, #1e1005 0%, #2a1a00 100%)',
     accentColor: '#f59e0b',
@@ -65,7 +65,7 @@ export const projects = [
     category: 'Web App',
     catIcon: 'pi pi-desktop',
     year: '2023',
-    desc: 'Aplikasi manajemen tugas kolaboratif dengan drag-and-drop kanban board dan deadline reminder.',
+    desc: 'Collaborative task management application with drag-and-drop kanban board and deadline reminders.',
     tags: ['Vue.js', 'Vuex', 'Express', 'MySQL'],
     gradient: 'linear-gradient(135deg, #1a0a2a 0%, #2a1040 100%)',
     accentColor: '#a855f7',
@@ -79,7 +79,7 @@ export const projects = [
     category: 'UI/UX',
     catIcon: 'pi pi-palette',
     year: '2022',
-    desc: 'Desain UI/UX aplikasi perjalanan dengan booking, peta interaktif, dan rekomendasi destinasi berbasis AI.',
+    desc: 'UI/UX design for a travel app with booking, interactive maps, and AI-based destination recommendations.',
     tags: ['Figma', 'Prototyping', 'User Research'],
     gradient: 'linear-gradient(135deg, #051a15 0%, #083028 100%)',
     accentColor: '#10b981',

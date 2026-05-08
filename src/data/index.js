@@ -1,6 +1,6 @@
 // ===================================================
-// DATA INDEX — Central export untuk semua data
-// Import dari file ini: import { profile, experiences } from '@/data'
+// DATA INDEX — Central export for all data
+// Import from this file: import { profile, experiences } from '@/data'
 // ===================================================
 
 export { profile } from './profile.js'

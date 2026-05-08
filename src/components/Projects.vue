@@ -2,9 +2,9 @@
   <section id="projects" class="section projects-section">
     <div class="container">
       <div class="section-header">
-        <span class="section-label">Karya</span>
+        <span class="section-label">Portfolio</span>
         <h2 class="section-title">Featured <span>Projects</span></h2>
-        <p class="section-desc">Beberapa project yang paling aku banggakan — dibangun dengan passion dan perhatian penuh terhadap detail.</p>
+        <p class="section-desc">Some of the projects I am most proud of — built with passion and attention to detail.</p>
       </div>
 
       <!-- Filter -->
@@ -53,7 +53,7 @@
       </TransitionGroup>
 
       <div class="cta-row">
-        <Button as="a" href="https://github.com" target="_blank" label="Lihat Semua di GitHub" icon="pi pi-github" outlined class="github-cta-btn" />
+        <Button as="a" href="https://github.com" target="_blank" label="View All on GitHub" icon="pi pi-github" outlined class="github-cta-btn" />
       </div>
     </div>
   </section>
@@ -66,11 +66,11 @@ import Tag from 'primevue/tag'
 import SelectButton from 'primevue/selectbutton'
 import { projects } from '@/data'
 
-const tabs = ['Semua', 'Web App', 'Mobile', 'UI/UX']
-const activeTab = ref('Semua')
+const tabs = ['All', 'Web App', 'Mobile', 'UI/UX']
+const activeTab = ref('All')
 
 const filteredProjects = computed(() =>
-  activeTab.value === 'Semua' ? projects : projects.filter(p => p.category === activeTab.value)
+  activeTab.value === 'All' ? projects : projects.filter(p => p.category === activeTab.value)
 )
 </script>
 

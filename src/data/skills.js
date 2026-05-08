@@ -1,5 +1,5 @@
 // ===================================================
-// DATA: Skills & Kemampuan
+// DATA: Skills & Abilities
 // ===================================================
 
 export const skillCategories = [
@@ -57,7 +57,7 @@ export const skillCategories = [
   },
 ]
 
-// Bar chart data untuk proficiency utama
+// Bar chart data for top proficiencies
 export const topSkills = [
   { name: 'Vue.js / React', pct: 92, color: '#a78bfa', gradient: 'linear-gradient(90deg,#8b5cf6,#a78bfa)' },
   { name: 'TypeScript / JavaScript', pct: 88, color: '#38bdf8', gradient: 'linear-gradient(90deg,#06b6d4,#38bdf8)' },
